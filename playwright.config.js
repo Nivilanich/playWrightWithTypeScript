@@ -1,5 +1,5 @@
 //frameworklevel
-import { defineConfig, devices } from '@playwright/test';
+import { defineConfig, devices } from '@playwright/test';  //it provides: test runner, assertions, fixtures
 
 const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
 
