@@ -1,1 +1,41 @@
 
+Payload:
+
+
+export class Postpayload1 {
+  constructor(
+    public title: string,
+    public body: string,
+    public userId: number
+  ) {}
+}
+
+
+Response:
+
+export interface Response1 {
+  userId: number;
+  id: number;
+  title: string;
+  body: string;
+}
+
+
+
+Nested Response:
+
+ interface Address {
+  city: string;
+  zip: string;
+}
+
+interface User {
+  id: number;
+  name: string;
+  address: Address;
+}
+
+export interface RootResponse {
+  user: User;
+}
+
