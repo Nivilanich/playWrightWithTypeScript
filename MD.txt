@@ -1,0 +1,66 @@
+Create a Folder
+Initialize npm
+npm init -y
+
+This creates package.json file / control file of a Node.js project
+
+core dependencies
+
+npm install -D playwright
+npm install -D ts-node typescript
+npm install -D @types/node
+
+Assertion &Reporting
+npm install -D expect
+
+
+Environment and Utilities
+npm install -D dotenv
+npm install -D cross-env
+
+Install Playwright browsers
+npx playwright install
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+npm install -D @cucumber/cucumber
+
+
+npm install -D cucumber-html-reporter
+
+npm install cucumber-html-reporter --save-dev
+
+
+
+
+
+npm install -D @playwright/mcp
+
+
+npx @playwright/mcp@latest
+
+
+
+allure generate allure-results --clean -o allure-report
+allure open allure-report
+
+
+allure serve allure-results
+
+
+npx cucumber-js src/features/login.feature

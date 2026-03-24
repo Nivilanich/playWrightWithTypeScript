@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@playwright\\mcp\\index.js"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "playwrightbdd_framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "apitest": "npx playwright test tests/api",
+    "codegen": "npx playwright codegen https://demoqa.com",
+    "showreport": "npx playwright show-report",
+    "allure:generate": "npx allure generate ./allure-results --clean -o ./allure-report",
+    "allure:open": "npx allure open ./allure-report",
+    "test:bdd": "cucumber-js --config cucumber.json",
+    "cucumber:report": "node ./src/support/report.ts",
+    "allure:generate:with-history": "if exist allure-report\\history (xcopy /E /Y allure-report\\history allure-report\\history) && npx allure generate ./allure-results --clean -o ./allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.5.0",
+    "@playwright/mcp": "^0.0.56",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.6",
+    "allure-playwright": "^3.4.5",
+    "cross-env": "^10.1.0",
+    "cucumber-html-reporter": "^7.2.0",
+    "dotenv": "^17.2.3",
+    "expect": "^30.2.0",
+    "playwright": "^1.57.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
