@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",              // Output JavaScript version
+    "module": "commonjs",         // Module system (Playwright uses CommonJS)
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom"],
+    "types": ["@playwright/test", "node"],
+    "strict": true,               // Enable all strict type-checking options
+    "esModuleInterop": true,      // Allow import of CommonJS modules
+    "allowJs": true,              // Allows compiling .js files too
+    "skipLibCheck": true,
+    "outDir": "dist"              // Output directory (optional)
+  },
+  "include": ["**/*.ts", "**/*.js"] // Files to include
+}
