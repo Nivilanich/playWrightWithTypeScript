@@ -1,0 +1,1026 @@
+[
+  {
+    "description": "As a user\nI want to navigate through the Elements section\nSo that I can access all element components",
+    "elements": [
+      {
+        "description": "",
+        "id": "demoqa-elements-section-navigation;open-text-box-section",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Open Text Box section",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1246842599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "user is on DemoQA Elements page",
+            "match": {
+              "location": "src\\steps\\elements.steps.ts:10"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5017319299,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user opens Text Box",
+            "match": {
+              "location": "src\\steps\\elements.steps.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Text Box page should be displayed",
+            "match": {
+              "location": "src\\steps\\elements.steps.ts:21"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 5016676400,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "demoqa-elements-section-navigation;open-check-box-section",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Open Check Box section",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1421039600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "user is on DemoQA Elements page",
+            "match": {
+              "location": "src\\steps\\elements.steps.ts:10"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5004106700,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "user opens Check Box",
+            "match": {
+              "location": "src\\steps\\elements.steps.ts:26"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Check Box page should be displayed",
+            "match": {
+              "location": "src\\steps\\elements.steps.ts:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4991561799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "demoqa-elements-section-navigation;open-radio-button-section",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Open Radio Button section",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 760617199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "user is on DemoQA Elements page",
+            "match": {
+              "location": "src\\steps\\elements.steps.ts:10"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5004912600,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "user opens Radio Button",
+            "match": {
+              "location": "src\\steps\\elements.steps.ts:36"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Radio Button page should be displayed",
+            "match": {
+              "location": "src\\steps\\elements.steps.ts:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2503741399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "demoqa-elements-section-navigation;open-web-tables-section",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Open Web Tables section",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 484841399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "user is on DemoQA Elements page",
+            "match": {
+              "location": "src\\steps\\elements.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4760697299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "user opens Web Tables",
+            "match": {
+              "location": "src\\steps\\elements.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238455699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Web Tables page should be displayed",
+            "match": {
+              "location": "src\\steps\\elements.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40594300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1041396399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "demoqa-elements-section-navigation;open-buttons-section",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Open Buttons section",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 508214099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "user is on DemoQA Elements page",
+            "match": {
+              "location": "src\\steps\\elements.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4164742200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "user opens Buttons",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "Buttons page should be displayed",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 765789199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "demoqa-elements-section-navigation;open-links-section",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Open Links section",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 520840499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "user is on DemoQA Elements page",
+            "match": {
+              "location": "src\\steps\\elements.steps.ts:10"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5007937299,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "user opens Links",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Links page should be displayed",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 5010213600,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "demoqa-elements-section-navigation;open-broken-links-and-images-section",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Open Broken Links and Images section",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1916754399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "user is on DemoQA Elements page",
+            "match": {
+              "location": "src\\steps\\elements.steps.ts:10"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5184513699,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "user opens Broken Links and Images",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "Broken Links and Images page should be displayed",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 5268356200,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "demoqa-elements-section-navigation;open-upload-and-download-section",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Open Upload and Download section",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1558450400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "user is on DemoQA Elements page",
+            "match": {
+              "location": "src\\steps\\elements.steps.ts:10"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5029517200,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "user opens Upload and Download",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "Upload and Download page should be displayed",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 5009974300,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "demoqa-elements-section-navigation;open-dynamic-properties-section",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Open Dynamic Properties section",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2049338100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "user is on DemoQA Elements page",
+            "match": {
+              "location": "src\\steps\\elements.steps.ts:10"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5014920600,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "user opens Dynamic Properties",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "Dynamic Properties page should be displayed",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 5004567800,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "demoqa-elements-section-navigation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "DemoQA Elements Section Navigation",
+    "tags": [],
+    "uri": "src\\features\\element.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "home-page-navigation;open-elements-section-from-home-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Open Elements section from Home page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4939295200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on DemoQA home page",
+            "match": {
+              "location": "src\\steps\\home.steps.ts:9"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5293449499,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user opens Elements section",
+            "match": {
+              "location": "src\\steps\\home.steps.ts:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Elements section should be displayed with left menu items",
+            "match": {
+              "location": "src\\steps\\home.steps.ts:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 5008484100,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page-navigation;open-forms-section-from-home-page",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Open Forms section from Home page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 870037599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user is on DemoQA home page",
+            "match": {
+              "location": "src\\steps\\home.steps.ts:9"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5002446200,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user opens Forms section",
+            "match": {
+              "location": "src\\steps\\home.steps.ts:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Forms section should be displayed",
+            "match": {
+              "location": "src\\steps\\home.steps.ts:33"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 5006629699,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "home-page-navigation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Home page navigation",
+    "tags": [],
+    "uri": "src\\features\\home.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "demoqa-login;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1146688399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the DemoQA login page",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:9"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 7190266000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with username \"testuser\" and password \"Password@123\"",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see the successful login message",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:21"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I logout from the application",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3987348199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "demoqa-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "DemoQA Login",
+    "tags": [],
+    "uri": "src\\features\\login.feature"
+  },
+  {
+    "description": "  As a user\n  I want to open and close modal dialogs\n  So that I can validate their content and visibility",
+    "elements": [
+      {
+        "description": "",
+        "id": "demoqa-modal-dialogs;handle-small-modal",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Handle Small Modal",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 705507599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user is on DemoQA Modal Dialogs page",
+            "match": {
+              "location": "src\\steps\\modal.steps.ts:7"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5009669000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user opens Small Modal",
+            "match": {
+              "location": "src\\steps\\modal.steps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Small Modal should be visible with title \"Small Modal\" and body contains \"This is a small modal\"",
+            "match": {
+              "location": "src\\steps\\modal.steps.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user closes Small Modal",
+            "match": {
+              "location": "src\\steps\\modal.steps.ts:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Small Modal should be closed",
+            "match": {
+              "location": "src\\steps\\modal.steps.ts:26"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 5009863900,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "demoqa-modal-dialogs;handle-large-modal",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Handle Large Modal",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 534052700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user is on DemoQA Modal Dialogs page",
+            "match": {
+              "location": "src\\steps\\modal.steps.ts:7"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5006367299,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user opens Large Modal",
+            "match": {
+              "location": "src\\steps\\modal.steps.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Large Modal should be visible with title \"Large Modal\"",
+            "match": {
+              "location": "src\\steps\\modal.steps.ts:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "user closes Large Modal",
+            "match": {
+              "location": "src\\steps\\modal.steps.ts:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Large Modal should be closed",
+            "match": {
+              "location": "src\\steps\\modal.steps.ts:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 5006115000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\laksh\\Downloads\\PlaywrightBDD_Framework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "demoqa-modal-dialogs",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "DemoQA Modal Dialogs",
+    "tags": [],
+    "uri": "src\\features\\modal.feature"
+  }
+]
