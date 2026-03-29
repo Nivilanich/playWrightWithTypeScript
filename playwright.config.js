@@ -49,7 +49,7 @@ export default defineConfig({
       use: {
         headless: false,
         baseURL: 'https://jsonplaceholder.typicode.com',
-        //storageState: 'storageState.json',                        //simulated token
+        //storageState: 'storageState.json',                        //simulated storage state
         extraHTTPHeaders: {
           Authorization: 'Bearer fake_token_123', // Simulated token
           }
